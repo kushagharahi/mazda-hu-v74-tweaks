@@ -48,4 +48,4 @@ Credit to http://ru1.ktkd.ru/mazda2.html for the outline of how to do this.
 - once again see: https://www.mazda3revolution.com/threads/black-screen-mzd.229891/post-2401643 for how to do that with a Raspberry PI and flashrom
 
 9 - once you finish this, you should be able to login to the serial console as a root user with the user/pass of `cmu/jci`. It is well documented online how to connect via serial to the CMU.
-- a great life pro tip, piping the serial output to this grep will cut down on a lot of the spam helping you to understand what you're doing e.g, [CODE]<serial output command> | grep -v -E '^[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-9]+' -u[/CODE]
+- a great life pro tip, piping the serial output to this grep will cut down on a lot of the spam helping you to understand what you're doing e.g, `<serial output command> | grep -v -E '^[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-9]+' -u`
