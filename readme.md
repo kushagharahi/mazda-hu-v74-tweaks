@@ -9,5 +9,9 @@
 ## Info
 `/jci/gui/system/js/systemApp.js` is from the v74 fw. This should remain unmodified as a reference and tweaks should be done via shell scripts.
 
-## Scripts
+## scripts
 Call these from the terminal.
+- removeStartupDisclaimer.sh - THIS IS A WIP and will cause your system to bootloop!
+
+## spi_flash_backups
+See [spi_flash_backups/readme.md](spi_flash_backups/readme.md) for more information.
